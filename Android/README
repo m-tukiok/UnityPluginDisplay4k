@@ -1,0 +1,9 @@
+How to build this plugin
+
+1. Create a new project in Android Studio
+2. Select 'Add No Activity'
+3. Select 'File > New Module' to create a new JavaLibrary
+4. Copy display4k/src/main/java/com/YourCompanyName/UnityPluginDisplay4k.java to your java library
+5. Copy display4k/build.gradle to your java library
+6. Open Terminal in Android Studio and change the current directory to your java library
+7. Run `../gradlew jar` to build jar file
